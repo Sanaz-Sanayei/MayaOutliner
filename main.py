@@ -48,6 +48,8 @@ class SceneOutliner(QObject):
             # allow multiple selection
             self.window.treeWidget.setSelectionMode(QtWidgets.QAbstractItemView.ExtendedSelection)
 
+
+
             #connections
             self.window.refresh_btn.clicked.connect(self.refresh_tree_widget())
 
